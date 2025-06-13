@@ -28,16 +28,16 @@ public class C03Operator {
         System.out.println(n6);
         System.out.println(n7);
 
-//        // 증감연산자
-//        int a = 10;
-//        a = a + 1;
-//        System.out.println(a);  // 11
-//        a += 1;
-//        System.out.println(a);  // 12
-//        a++;    // 후위증감연산자
-//        System.out.println(a);  // 13
-//        ++a;    // 전위증감연산자
-//        System.out.println(a);  // 14
+        // 증감연산자
+        int a = 10;
+        a = a + 1;
+        System.out.println(a);  // 11
+        a += 1;
+        System.out.println(a);  // 12
+        a++;    // 후위증감연산자
+        System.out.println(a);  // 13
+        ++a;    // 전위증감연산자
+        System.out.println(a);  // 14
         
         // a++ : 현재 라인의 명령문이 실행된 후 증가
         // ++a : 현재 라인의 명령문이 실행되기 전 증가

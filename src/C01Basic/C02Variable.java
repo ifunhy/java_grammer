@@ -66,18 +66,18 @@ public class C02Variable {
             System.out.println("거짓입니다.");
         }
 
-//        // null도 하나의 타입
-//        // 참조형 자료에 값을 할당하지 않으면 null이 할당
-//        String str1 = "";
-//        String str2 = null;
-//        System.out.println(str1.isEmpty());
-//        System.out.println(str2.isEmpty()); // null을 대상으로 string의 메소드 사용 불가
-//        String[] arr = new String[5];
-//        arr[1] = "hello1";
-//        arr[3] = "hello3";
-//        for (int i = 0; i < 5; i++) {
-//            System.out.println(arr[i].length());    // null로 인해 error
-//        }
+        // null도 하나의 타입
+        // 참조형 자료에 값을 할당하지 않으면 null이 할당
+        String str1 = "";
+        String str2 = null;
+        System.out.println(str1.isEmpty());
+        System.out.println(str2.isEmpty()); // null을 대상으로 string의 메소드 사용 불가
+        String[] arr = new String[5];
+        arr[1] = "hello1";
+        arr[3] = "hello3";
+        for (int i = 0; i < 5; i++) {
+            System.out.println(arr[i].length());    // null로 인해 error
+        }
 
         // 타입 변환
         // 묵시적 타입 변환, 명시적 타입 변환
@@ -117,16 +117,16 @@ public class C02Variable {
         System.out.println(d);
         System.out.println((double)a3 / b3);
 
-//        // 변수와 상수
-//        int a1 = 10;
-//        // 변수값 재할당은 가능
-//        a1 = 20;
-//        // 변수값 재선언하는 것은 불가능
-//        int a1 = 30;    // 불가능
+        // 변수와 상수
+        int a1 = 10;
+        // 변수값 재할당은 가능
+        a1 = 20;
+        // 변수값 재선언하는 것은 불가능
+        int a1 = 30;    // 불가능
         
-//        // 상수는 초기값을 할당한 후 재할당하는 것이 불가능
-//        // 상수는 final 키워드를 사용
-//        final double PI = 3.14;
-//        PI = 30;    // 불가능
+        // 상수는 초기값을 할당한 후 재할당하는 것이 불가능
+        // 상수는 final 키워드를 사용
+        final double PI = 3.14;
+        PI = 30;    // 불가능
     }
 }
