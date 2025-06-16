@@ -247,6 +247,14 @@ public class C06String {
         }
         System.out.println(sb);
 
+        // 문자열 비교 (compareTo : 아스키코드 비교)
+        String s1 = "hello";
+        String s2 = "dello";
+        String s3 = "hello";
+        System.out.println(s1.compareTo(s2));   // "h" - "d" = 양수
+        System.out.println(s2.compareTo(s1));   // "d" - "h" = 음수
+        System.out.println(s1.compareTo(s3));   // "h" - "h" = 0
+
         // 프로그래머스 - 문자열 밀기
 
 

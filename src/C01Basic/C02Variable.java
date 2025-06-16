@@ -123,7 +123,7 @@ public class C02Variable {
         a1 = 20;
         // 변수값 재선언하는 것은 불가능
         int a1 = 30;    // 불가능
-        
+
         // 상수는 초기값을 할당한 후 재할당하는 것이 불가능
         // 상수는 final 키워드를 사용
         final double PI = 3.14;

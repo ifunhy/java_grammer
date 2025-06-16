@@ -228,7 +228,7 @@ public class C05LoopStatement {
                 }
             }
         }
-        
+
         // 100 ~ 200까지 수 중에서 가장 작은 소수 출력
 
         for (int i = 100; i <= 200; i++) {
