@@ -65,7 +65,7 @@ public class C06String {
         String st3 = "HeLlo1";
         System.out.println(st1.equals(st2));    // true
         System.out.println(st1.equals(st3));    // false
-        System.out.println(st1.equalsIgnoreCase(st3));  // true
+        System.out.println(st1.equalsIgnoreCase(st3));  // true. 대소문자를 구분하지 않고 확인
 
         // length : 문자열의 길이 출력
         String st1 = "hello World1 Java2";
