@@ -39,8 +39,8 @@ public class C03Class {
         // 자료구조에서 객체 사용 예시
         // 배열
         String[] arr1 = {"hello", "java", "python"};    // arr1은 객체
-        Arrays.sort(arr1);  // Arrays.sort는 클래스 메소드
-        System.out.println(arr1.length);    // .length는 객체(인스턴스) 메소드
+        Arrays.sort(arr1);  // Arrays.sort : static 메소드
+        System.out.println(arr1.length);    // .length : 인스턴스 속성 참조
 
 
         // 리스트
@@ -49,8 +49,9 @@ public class C03Class {
         myList.sort(Comparator.naturalOrder()); // 객체(인스턴스) 메소드
 
     }
-    static int total = 0;
+    static int total = 0;   // 클래스 변수(모든 인스턴스가 공유)
 
+    // 중첩 클래스
     class MyCalculator {
         // static 붙어있으면 클래스변수, static 붙어있지 않으면 객체변수
         public static int sum(int a, int b) {
@@ -58,7 +59,7 @@ public class C03Class {
         }
 
         public static int sumAcc(int a) {
-            total += a;
+            total += a;     // 클래스 변수 total 사용
             return total;
         }
     }

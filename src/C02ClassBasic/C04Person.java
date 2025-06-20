@@ -9,6 +9,7 @@ public class C04Person {
     private String printPerson;
 
     // 메소드는 public하게 별도로 만들어서 의도를 명학히 하여, 변수의 안정성 향상
+    // setter : 값 설정
     public void setName(String name) {
         this.name = name;
     }
@@ -21,6 +22,7 @@ public class C04Person {
         this.age = age;
     }
 
+    // getter : 값 조회
     public String getName() {
         return name;
     }
@@ -33,6 +35,7 @@ public class C04Person {
         return age;
     }
 
+    // 객체 상태를 문자열로 출력하는 인스턴스 메소드
     public String printPerson() { //  person은 객체의 주소값이 매개변수로 전달
         return ("이름: " + this.name + ", 이메일: " + this.email + ", 나이: " + this.age);
     }
