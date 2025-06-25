@@ -1,5 +1,6 @@
 package C06EtcClass;
 import java.util.*;
+import java.util.stream.Stream;
 
 public class C04GenericMain {
     public static void main(String[] args) {
@@ -9,6 +10,12 @@ public class C04GenericMain {
 
         Integer[] intArr = {10,20,30};
         intChange(intArr, 0, 1);
+        System.out.println(Arrays.toString(intArr));    // 자리가 체인지된 객체 출력
+
+        allChange(stArr,0,1);
+        allChange(intArr,0,1);
+
+
 
         // 일반객체 생성시
         Person p1 = new Person("hongildong");
@@ -18,6 +25,11 @@ public class C04GenericMain {
 
         // 제네릭 사용 예시
         List<String> myList = new ArrayList<>();
+        myList.add("hello");
+        Stream<String> myStream;
+        Optional<Student> studentOptional;
+
+
     }
 
     // 제네릭메소드는 반환타입 왼쪽에 <T>라고 선언
