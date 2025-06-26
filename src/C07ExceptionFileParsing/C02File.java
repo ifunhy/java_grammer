@@ -29,11 +29,11 @@ public class C02File {
 //            System.out.println(l);
 //        }
 
-        // 파일쓰기
+        // 파일 쓰기
         Path filePath = Paths.get("src/C07ExceptionFileParsing/test.txt");
         Files.write(filePath, "홍길동1\n".getBytes(), StandardOpenOption.APPEND);    // APPEND : 파일 생성 후 추가모드
         Files.write(filePath, "홍길동2\n".getBytes(), StandardOpenOption.WRITE);     // WRITE : 덮어쓰기
-        Files.write(filePath, "\n홍길동0".getBytes(), StandardOpenOption.CREATE_NEW);    // CREATE_NEW : 새로입력
+        Files.write(filePath, "\n홍길동0".getBytes(), StandardOpenOption.CREATE_NEW);    // CREATE_NEW : 새로 입력
 
 
 
