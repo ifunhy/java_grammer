@@ -47,7 +47,7 @@ public class C03JsonParsing {
         for (JsonNode j : jsonNodes2) {
             System.out.println(j);
             Student s2 = o1.readValue(j.toString(), Student.class);
-            studentList.add(s1);
+            studentList.add(s2);
         }
         System.out.println("실습 :" + studentList);
 
