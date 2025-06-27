@@ -73,7 +73,7 @@ class Student {
 //        this.city = city;
 //    }
 
-    public Student() {
+    public Student() {  // 기본생성자
 
     }
 
